@@ -10,7 +10,7 @@ echo "=====> build_dir is $build_dir"
 
 cache_basedir=$2
 bp_dir=$(cd $(dirname $0); cd ..; pwd)
-stable_version="0.10.24"
+stable_version="0.10.28"
 
 source $bp_dir/bin/common.sh
 
