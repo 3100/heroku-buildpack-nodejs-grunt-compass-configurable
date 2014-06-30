@@ -126,7 +126,7 @@ if [ ! -f $GEM_HOME/bin/compass ]; then
 fi
 
 # export env before grunt
-if [-d "$env_dir" ]; then
+if [ -d "$env_dir" ]; then
   status "Exporting config vars to environment"
   export_env_dir $env_dir
 fi
